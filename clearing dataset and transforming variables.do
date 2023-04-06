@@ -50,6 +50,9 @@ tab Q288
 #dropping missing observations
 drop if missing(Q98)
 tab Q98
+drop if Q98 == -5
+drop if Q98 == -2
+drop if Q98 == -1
 
 #recoding Q98 to a dummy where party members (inactive members and active members) will have the value of 1, and not members will have the value of 0.
 recode Q98 (0 = 0) (1 = 1) (2 = 1)
