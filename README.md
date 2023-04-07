@@ -1,1 +1,1 @@
-# coding-assignment
+I use the latest dataset from European Values Study (available from here: https://search.gesis.org/research_data/ZA7505), and with the help of the codebook (also available from here: https://search.gesis.org/research_data/ZA7505), I analyse relationship between income and participation in political protests.
